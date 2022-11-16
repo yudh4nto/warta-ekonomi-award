@@ -3,7 +3,25 @@ guid: 5b5f94d0c364a5048a8752ab13d2944c
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: light_cold.001
+    second: {fileID: -438973146238194645, guid: 4cf6282f4f07a8448b1a9d96deff3529,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_clear.002
+    second: {fileID: -4382364152657727796, guid: 4cf6282f4f07a8448b1a9d96deff3529,
+      type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: metal_dark.003
+    second: {fileID: -3041629644447333348, guid: 4cf6282f4f07a8448b1a9d96deff3529,
+      type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -47,7 +65,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

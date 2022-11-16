@@ -12,8 +12,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Ground
+    second: {fileID: 2100000, guid: 6d257d18e6acd3744a92162fe76fe53d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: SimpleProceduralLeaf
     second: {fileID: 2100000, guid: 514ef51083582054e9c9227bc17505af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree PineSiberian Bark
+    second: {fileID: 2100000, guid: bf23f4e6d57c41b42aaeee63bbf26006, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree PineSiberian leaf
+    second: {fileID: 2100000, guid: 514ef51083582054e9c9227bc17505af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ground
+    second: {fileID: 2100000, guid: 6d257d18e6acd3744a92162fe76fe53d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -45,9 +65,9 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.7
+    globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
     importVisibility: 1
@@ -98,7 +118,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.7
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
